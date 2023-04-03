@@ -25,7 +25,9 @@ namespace Inventario.Persistence
             services.AddScoped<IApplicationDbContext>
                 (options => options.GetService<ApplicationDbContext>());
 
-            services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IClienteRepository, ClienteRepository>()
+                .AddScoped<IProveedorRepository, ProveedorRepository>()
+                ;
 
             return services;
         }
