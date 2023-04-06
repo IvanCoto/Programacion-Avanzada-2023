@@ -3,8 +3,11 @@ using Inventario.Domain.EntityModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Inventario.API.Controllers
+namespace Inventario.Api.v2.Controllers
 {
+
+    [Route("api/[controller]")]
+    [ApiController]
     public class ProductoController : ControllerBase
     {
 
