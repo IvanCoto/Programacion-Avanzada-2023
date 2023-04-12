@@ -16,7 +16,8 @@ namespace Inventario.Application
            (this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IClienteService, ClienteService>()
-                .AddScoped<IProveedorService, ProveedorService>();
+                .AddScoped<IProveedorService, ProveedorService>()
+                .AddScoped<IFacturaService, FacturaServices>();
             return services;
 
         }

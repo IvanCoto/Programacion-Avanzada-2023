@@ -11,5 +11,6 @@ namespace Inventario.Application.Contracts.DbContexts
     public interface IApplicationDbContext
     {
         DbSet<Cliente> Clientes { get; set; }
+        DbSet<Factura> Factura { get; set; }
     }
 }
