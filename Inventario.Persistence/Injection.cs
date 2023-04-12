@@ -27,7 +27,7 @@ namespace Inventario.Persistence
 
             services.AddScoped<IClienteRepository, ClienteRepository>()
                 .AddScoped<IProveedorRepository, ProveedorRepository>()
-                ;
+                .AddScoped<IProductoRepository, ProductoRepository>();
 
             return services;
         }
