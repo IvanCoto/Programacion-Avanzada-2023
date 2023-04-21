@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/OdbXQJiGuuF5Z4oLEvqSIs0jtZDxfJSRv+GNS4mDJXRgpqKcJaYWREIvG4o//ZZHWw9cZMH1CVoJn3YnqGbwA==",
+  "dgSpecHash": "3PtkDWB4SxNMn+MPA4wjyjJrS//6Xql9QvY8/4fvje7Lghgjt5+BfBuywYO0A+NMp4rJmviVrBaD/vgSsQW1ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Identity\\Inventario.Identity.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.15\\microsoft.aspnetcore.authentication.google.6.0.15.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.15\\microsoft.aspnetcore.cryptography.keyderivation.6.0.15.nupkg.sha512",
     "C:\\Users\\ivanc\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",

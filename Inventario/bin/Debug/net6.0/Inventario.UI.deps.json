@@ -90,6 +90,14 @@
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.15.0",
+            "fileVersion": "6.0.1523.12404"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.15": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -898,6 +906,8 @@
       "Inventario.Application/1.0.0": {
         "dependencies": {
           "Inventario.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
         },
@@ -907,6 +917,7 @@
       },
       "Inventario.Domain/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "6.0.15"
         },
         "runtime": {
@@ -917,6 +928,7 @@
         "dependencies": {
           "Inventario.Application": "1.0.0",
           "Inventario.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.15",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.15"
         },
@@ -989,6 +1001,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TMcCDKPnkq7RyeLMKf5UTB2ZvDQSr1pAtUOIw7cPhXJPrN8wffCdZi8L6EPTrkv3j5DgyXybD30B9xjbZ1ulaw==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.15",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.15.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.15": {
       "type": "package",

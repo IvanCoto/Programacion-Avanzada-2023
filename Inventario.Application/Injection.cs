@@ -1,5 +1,6 @@
 ﻿using Inventario.Application.Contracts.Services;
 using Inventario.Application.Services;
+using Inventario.Application.Services.Components;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -18,7 +19,8 @@ namespace Inventario.Application
             services.AddScoped<IClienteService, ClienteService>()
                 .AddScoped<IProveedorService, ProveedorService>()
                 .AddScoped<IFacturaService, FacturaServices>()
-                .AddScoped<IProductoService, ProductoService>();
+                .AddScoped<IProductoService, ProductoService>()
+                .AddScoped<IEmailSender, EmailSender>();
             return services;
 
         }
