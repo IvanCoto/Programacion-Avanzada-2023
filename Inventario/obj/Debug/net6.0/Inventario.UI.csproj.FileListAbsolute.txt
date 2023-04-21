@@ -93,3 +93,4 @@ C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inven
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario\obj\Debug\net6.0\Inventario.UI.pdb
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario\obj\Debug\net6.0\Inventario.UI.genruntimeconfig.cache
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario\obj\Debug\net6.0\ref\Inventario.UI.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

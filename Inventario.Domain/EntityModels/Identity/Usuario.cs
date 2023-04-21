@@ -9,5 +9,7 @@ namespace Inventario.Domain.EntityModels.Identity
 {
     public class Usuario : IdentityUser
     {
+
+        public List<Permiso> Permisos { get; set; }
     }
 }

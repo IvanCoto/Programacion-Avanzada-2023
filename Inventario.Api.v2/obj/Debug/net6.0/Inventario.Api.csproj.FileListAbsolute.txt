@@ -92,3 +92,5 @@ C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inven
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario.Api.v2\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario.Api.v2\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario.Api.v2\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario.Api.v2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario\Inventario.Api.v2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
