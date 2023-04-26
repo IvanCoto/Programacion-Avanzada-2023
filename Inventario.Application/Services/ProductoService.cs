@@ -22,12 +22,13 @@ namespace Inventario.Application.Services
 
         public Producto Get(int id)
         {
-            return _repository.Get(s => s.Id == id);
+            return _repository.Get(s => s.Id == id , includes: i => i.Proveedor);
         }
 
         public IEnumerable<Producto> List(Expression<Func<Producto, bool>> predicate = null)
         {
-            return _repository.GetAll(predicate);
+            //return _repository.GetAll(predicate);
+            return _repository.GetAll(includes: i => i.Proveedor);
         }
 
         public void Insert(Producto producto)

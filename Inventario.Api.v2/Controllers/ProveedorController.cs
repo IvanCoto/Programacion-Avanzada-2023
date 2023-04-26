@@ -18,13 +18,15 @@ namespace Inventario.API.Controllers
         readonly IProveedorService _service;
 
         [HttpGet]
+        [Route("Lista")]
         [ActionName(nameof(List))]
         public ActionResult<IEnumerable<Proveedor>> List()
         {
             return _service.List().ToList();
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
+        [Route("Obtener/{id:int}")]
         [ActionName(nameof(Get))]
         public ActionResult<Proveedor> Get(int id)
         {
@@ -32,6 +34,7 @@ namespace Inventario.API.Controllers
         }
 
         [HttpPost]
+        [Route("Guardar")]
         [ActionName(nameof(Post))]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -42,6 +45,7 @@ namespace Inventario.API.Controllers
         }
 
         [HttpPut]
+        [Route("Editar")]
         [ActionName(nameof(Put))]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -56,7 +60,8 @@ namespace Inventario.API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("Eliminar/{id:int}")]
         [ActionName(nameof(Delete))]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

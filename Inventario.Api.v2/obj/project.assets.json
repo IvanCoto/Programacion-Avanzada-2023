@@ -1119,6 +1119,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1743,9 +1756,12 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Inventario.Application": "1.0.0",
+          "Inventario.Domain": "1.0.0",
+          "Inventario.Persistence": "1.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "7.0.4"
+          "Microsoft.Extensions.Configuration.Binder": "7.0.4",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/Inventario.Infraestructure.dll": {}
@@ -3135,6 +3151,33 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Swashbuckle.AspNetCore/6.2.3": {
@@ -4676,24 +4719,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivanc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Api.v2\\Inventario.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
       "projectName": "Inventario.Api",
-      "projectPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Api.v2\\Inventario.Api.csproj",
-      "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Api.v2\\obj\\",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4701,24 +4739,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Application\\Inventario.Application.csproj": {
-              "projectPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Application\\Inventario.Application.csproj"
+            "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
             },
-            "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Domain\\Inventario.Domain.csproj": {
-              "projectPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Domain\\Inventario.Domain.csproj"
+            "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
             },
-            "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj"
+            "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj"
             },
-            "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Persistence\\Inventario.Persistence.csproj": {
-              "projectPath": "C:\\Users\\ivanc\\source\\Programacion avanzada web\\Proyecto\\Proyecto - Tienda\\Inventario\\Inventario.Persistence\\Inventario.Persistence.csproj"
+            "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj"
             }
           }
         }
@@ -4763,7 +4800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
