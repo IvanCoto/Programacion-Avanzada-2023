@@ -1,5 +1,6 @@
 using Inventario.Application;
 using Inventario.Identity;
+using Inventario.Infrastructure;
 using Inventario.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

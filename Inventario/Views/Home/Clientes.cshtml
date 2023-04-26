@@ -1,0 +1,64 @@
+﻿
+@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Clientes</h1>
+
+
+
+<div class="card">
+    <div class="card-header">
+        Lista de clientes.
+    </div>
+    <div class="card-body">
+        <a asp-action="upsertCliente" class="btn btn-outline-success"
+           asp-controller="Home" asp-route-id="0">Nuevo Cliente</a>
+        <hr />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                    <th>@Html.DisplayNameFor(model => model.CorreoElectronico)</th>
+                    <th>@Html.DisplayNameFor(model => model.Telefono)</th>
+                    <th>@Html.DisplayNameFor(model => model.Direccion)</th>
+                    <th>@Html.DisplayNameFor(model => model.Pais)</th>
+                    <th>@Html.DisplayNameFor(model => model.Provincia)</th>
+                    <th>@Html.DisplayNameFor(model => model.Canton)</th>
+                    <th>@Html.DisplayNameFor(model => model.Distrito)</th>
+                    <th>Opciones</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="@item.Id">
+                        <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CorreoElectronico)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Direccion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Pais)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Provincia)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Canton)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Distrito)</td>
+                        <td>
+                            <a asp-action="upsertCliente" asp-controller="Home" asp-route-id="@item.Id"
+                               class="btn btn-outline-primary btn-sm">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </a> |
+                            <a asp-action="eliminarCliente" asp-controller="Home" asp-route-id="@item.Id"
+                               class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

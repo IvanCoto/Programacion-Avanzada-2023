@@ -59,6 +59,7 @@ namespace Inventario.Persistence.DbContexts
                 }
             }
 
+
             if (orderBy != null)
             {
                 return orderBy(query);
@@ -66,6 +67,9 @@ namespace Inventario.Persistence.DbContexts
 
             return query;
         }
+
+
+
 
         public void Insert(T entity)
         {

@@ -1,0 +1,92 @@
+﻿@model ClienteViewModel
+
+@{
+    ViewData["Title"] = "upsertCliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cliente Individual</h1>
+
+<div class="card">
+    <div class="card-header">
+        @ViewBag.Action
+    </div>
+
+    <div class="card-body">
+        
+        <form asp-action="guardarCambiosCliente" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Cliente" class="form-control" />
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Nombre" class="control-label"></label>
+                <input asp-for="Cliente.Nombre" class="form-control"> </>
+                <span asp-validation-for="Cliente.Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.CorreoElectronico" class="control-label"></label>
+                <input asp-for="Cliente.CorreoElectronico" class="form-control"> </>
+                <span asp-validation-for="Cliente.CorreoElectronico" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Telefono" class="control-label"></label>
+                <input asp-for="Cliente.Telefono" class="form-control"> </>
+                <span asp-validation-for="Cliente.Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Direccion" class="control-label"></label>
+                <input asp-for="Cliente.Direccion" class="form-control"> </>
+                <span asp-validation-for="Cliente.Direccion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Pais" class="control-label"></label>
+                <input asp-for="Cliente.Pais" class="form-control"> </>
+                <span asp-validation-for="Cliente.Pais" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Cliente.Provincia" class="control-label"></label>
+                <select asp-for="Cliente.Provincia" class="form-select"> 
+                    <option value="San Jose">San José</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="Guanacaste">Guanacaste</option>
+                    <option value="Limon">Limón</option>
+                    <option value="Puntarenas">Puntarenas</option>
+                    </select>
+                <span asp-validation-for="Cliente.Provincia" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Canton" class="control-label"></label>
+                <input asp-for="Cliente.Canton" class="form-control"> </>
+                <span asp-validation-for="Cliente.Canton" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Cliente.Distrito" class="control-label"></label>
+                <input asp-for="Cliente.Distrito" class="form-control"> </>
+                <span asp-validation-for="Cliente.Distrito" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-primary">
+                    <i class="fa-solid fa-floppy-disk"></i>Guardar
+                </button> |
+                <a asp-action="Clientes" class="btn btn-outline-danger"
+                   asp-controller="Home"><i class="fa-solid fa-ban"></i>Volver a la lista</a>
+            </div>
+
+        </form>
+        <hr />
+    </div>
+</div>
+
+
