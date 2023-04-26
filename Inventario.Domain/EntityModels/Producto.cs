@@ -24,7 +24,9 @@ namespace Inventario.Domain.EntityModels
         [Required]
         [ForeignKey("Proveedor")]
         [DisplayName("Proveedor")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProveedorId { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Proveedor Proveedor { get; set; }
 
         [Required]
