@@ -22,5 +22,7 @@ namespace Inventario.Persistence.DbContexts
         public DbSet<Producto> Productos { get; set; }
 
         public DbSet<Factura> Factura { get; set; }
+
+        public DbSet<Venta> Venta { get; set; }
     }
 }

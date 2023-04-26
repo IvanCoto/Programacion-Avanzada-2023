@@ -20,6 +20,7 @@ namespace Inventario.Application
                 .AddScoped<IProveedorService, ProveedorService>()
                 .AddScoped<IFacturaService, FacturaServices>()
                 .AddScoped<IProductoService, ProductoService>()
+                .AddScoped<IVentaService, VentaService>()
                 .AddScoped<IEmailSender, EmailSender>();
             return services;
 

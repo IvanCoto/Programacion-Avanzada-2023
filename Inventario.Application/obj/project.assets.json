@@ -4060,19 +4060,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\geral\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
+      "projectUniqueName": "C:\\Users\\geral\\OneDrive\\Documentos\\GitHub\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
       "projectName": "Inventario.Application",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\obj\\",
+      "projectPath": "C:\\Users\\geral\\OneDrive\\Documentos\\GitHub\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
+      "packagesPath": "C:\\Users\\geral\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\geral\\OneDrive\\Documentos\\GitHub\\Programacion-Avanzada-2023\\Inventario.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\geral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4086,8 +4091,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
-              "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
+            "C:\\Users\\geral\\OneDrive\\Documentos\\GitHub\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+              "projectPath": "C:\\Users\\geral\\OneDrive\\Documentos\\GitHub\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
             }
           }
         }
@@ -4135,7 +4140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

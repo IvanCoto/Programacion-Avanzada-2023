@@ -21,5 +21,6 @@ namespace Inventario.Identity.DbContexts
         public DbSet<Permiso> Permisos { get; set; }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
     }
 }

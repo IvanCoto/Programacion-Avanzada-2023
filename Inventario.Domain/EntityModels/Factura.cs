@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Inventario.Domain.EntityModels
@@ -38,6 +39,17 @@ namespace Inventario.Domain.EntityModels
         [Required]
         public int TotalPagar { get; set; }
 
+        //------Deserialización de Cliente---------------------------------------------------------------------------
+
+        public static Factura Deserialize(string json)
+        {
+            var options =
+                new JsonSerializerOptions
+                { PropertyNameCaseInsensitive = true };
+
+            return
+                JsonSerializer.Deserialize<Factura>(json, options);
+        }
 
 
 

@@ -15,6 +15,5 @@ namespace Inventario.Application.Contracts.Services
         IEnumerable<Venta> List(Expression<Func<Venta, bool>> predicate = null);
         
         void Insert(Venta Venta);
-        void Update(Venta Venta);
     }
 }
