@@ -19,10 +19,10 @@ namespace Inventario.Domain.EntityModels
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        [ForeignKey("Factura")]
-        public int FacturaId { get; set; }
-        public Factura Factura { get; set; }
+        //[Required]
+        //[ForeignKey("Factura")]
+        //public int FacturaId { get; set; }
+        //public Factura Factura { get; set; }
 
         [Required]
         [ForeignKey("Cliente")]

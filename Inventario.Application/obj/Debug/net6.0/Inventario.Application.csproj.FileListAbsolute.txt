@@ -28,6 +28,7 @@ C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inv
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\refint\Inventario.Application.dll
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.pdb
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\ref\Inventario.Application.dll
+<<<<<<< HEAD
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.deps.json
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.dll
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.pdb
@@ -43,3 +44,20 @@ C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\refint\Inventario.Application.dll
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.pdb
 C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\ref\Inventario.Application.dll
+=======
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.deps.json
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Application.pdb
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Domain.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\bin\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.csproj.AssemblyReference.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.AssemblyInfoInputs.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.AssemblyInfo.cs
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.csproj.CoreCompileInputs.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.csproj.CopyComplete
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\refint\Inventario.Application.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\Inventario.Application.pdb
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Application\obj\Debug\net6.0\ref\Inventario.Application.dll
+>>>>>>> 3d53ddc66922ca5fa6052b70b40cc5eacc26aedf
