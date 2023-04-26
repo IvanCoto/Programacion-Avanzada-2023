@@ -1,0 +1,77 @@
+﻿
+@using Inventario.Domain.ViewModels;
+
+@model ProductoViewModel
+
+@{
+    ViewData["Title"] = "upsertProducto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    SelectList proveedores =
+    new SelectList
+    (Model.GetProveedores, "Id", "Nombre", Model.Producto.ProveedorId);
+}
+
+<h1>Producto Individual</h1>
+
+
+
+<div class="card">
+    <div class="card-header">
+        @ViewBag.Action
+    </div>
+    <div class="card-body">
+
+        <form asp-action="guardarCambiosProducto" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Producto.Id" class="form-control" />
+
+            <div class="form-group mb-2">
+                <label asp-for="Producto.Nombre" class="control-label"></label>
+                <input asp-for="Producto.Nombre" class="form-control"> </>
+                <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+            <label asp-for="Producto.ProveedorId" class="control-label"></label>
+            <select asp-for="Producto.ProveedorId"
+            asp-items="proveedores" class="form-select"> </select>
+            <span asp-validation-for="Producto.ProveedorId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Producto.Descripcion" class="control-label"></label>
+                <input asp-for="Producto.Descripcion" class="form-control"> </>
+                <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Producto.PrecioCosto" class="control-label"></label>
+                <input asp-for="Producto.PrecioCosto" class="form-control"> </>
+                <span asp-validation-for="Producto.PrecioCosto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Producto.PrecioPublico" class="control-label"></label>
+                <input asp-for="Producto.PrecioPublico" class="form-control"> </>
+                <span asp-validation-for="Producto.PrecioPublico" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label asp-for="Producto.CantidadArticulos" class="control-label"></label>
+                <input asp-for="Producto.CantidadArticulos" class="form-control"> </>
+                <span asp-validation-for="Producto.CantidadArticulos" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-primary">
+                    <i class="fa-solid fa-floppy-disk"></i>Guardar
+                </button> |
+                <a asp-action="Productos" class="btn btn-outline-danger"
+                   asp-controller="Home"><i class="fa-solid fa-ban"></i>Volver a la lista</a>
+            </div>            
+
+        </form>
+        <hr />
+    </div>
+</div>

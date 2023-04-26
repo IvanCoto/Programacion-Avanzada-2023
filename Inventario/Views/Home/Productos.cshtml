@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<Producto>
+
+
+@{
+    ViewData["Title"] = "Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Productos</h1>
+
+
+<div class="card">
+    <div class="card-header">
+        Lista de productos.
+    </div>
+    <div class="card-body">
+        <a asp-action="upsertProducto" class="btn btn-outline-success"
+           asp-controller="Home" asp-route-id="0">Nuevo Producto</a>
+           <hr />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                    <th>@Html.DisplayNameFor(model => model.ProveedorId)</th>
+                    <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+                    <th>@Html.DisplayNameFor(model => model.PrecioCosto)</th>
+                    <th>@Html.DisplayNameFor(model => model.PrecioPublico)</th>
+                    <th>@Html.DisplayNameFor(model => model.CantidadArticulos)</th>
+                    <th>Opciones</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="@item.Id">
+                        <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Proveedor.Nombre)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PrecioCosto)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PrecioPublico)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CantidadArticulos)</td>
+                        <td>
+                            <a asp-action="upsertProducto" asp-controller="Home" asp-route-id="@item.Id"
+                               class="btn btn-outline-primary btn-sm">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </a> |
+                            <a asp-action="eliminarProducto" asp-controller="Home" asp-route-id="@item.Id"
+                               class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
