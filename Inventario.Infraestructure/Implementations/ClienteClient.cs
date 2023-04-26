@@ -80,43 +80,42 @@ namespace Inventario.Infraestructure.Implementations
             }
         }
 
-        public async Task<bool> GuardarCliente(Cliente cliente)
+        public async Task GuardarCliente(Cliente input)
         {
-            bool guardarCliente = false;
+            //bool guardarCliente = false;
 
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(CLIENTE_BASE_ADDRESS);
 
                 var content = new StringContent
-                    (JsonConvert.SerializeObject(cliente), Encoding.UTF8, "application/json");
+                    (JsonConvert.SerializeObject(input), Encoding.UTF8, "application/json");
 
                 var response = await client.PostAsync($"Cliente/Guardar", content);
                 if (response.IsSuccessStatusCode)
                 {
-                    guardarCliente = true;
+                return;
+
                 }
-                return guardarCliente;
             }
         }
 
-        public async Task<bool> EditarCliente(Cliente cliente)
+        public async Task EditarCliente(Cliente input)
         {
-            bool editarCliente = false;
+            //bool editarCliente = false;
 
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(CLIENTE_BASE_ADDRESS);
 
                 var content = new StringContent
-                    (JsonConvert.SerializeObject(cliente), Encoding.UTF8, "application/json");
+                    (JsonConvert.SerializeObject(input), Encoding.UTF8, "application/json");
 
                 var response = await client.PutAsync($"Cliente/Editar", content);
                 if (response.IsSuccessStatusCode)
                 {
-                    editarCliente = true;
+                return;
                 }
-                return editarCliente;
             }
         }
 

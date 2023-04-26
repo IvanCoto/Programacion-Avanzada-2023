@@ -19,10 +19,14 @@ namespace Inventario.Application.Contracts.Inventario
         Task<ClienteViewModel> ObtenerCliente(int id);
 
         //Post
-        Task<bool> GuardarCliente(Cliente cliente);
+        Task GuardarCliente(Cliente input);
+        //Task<bool> GuardarCliente(Cliente input);
+
 
         //Put
-        Task<bool> EditarCliente(Cliente cliente);
+        Task EditarCliente(Cliente input);
+        //Task<bool> EditarCliente(Cliente input);
+
 
         //Delete
         Task<bool> EliminarCliente(int id);

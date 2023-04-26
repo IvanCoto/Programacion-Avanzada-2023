@@ -73,6 +73,7 @@ namespace Inventario.Controllers
 
             return View(ListaCliente);
         }
+
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> upsertCliente(int id)
@@ -86,41 +87,65 @@ namespace Inventario.Controllers
                 GetClientes = _repositoryCliente.GetAll().ToList()
             };
 
-            ViewBag.Action = "Nuevo Proveedor";
+            ViewBag.Action = "Nuevo Cliente";
             
 
 
             if (id != 0)
             {
                 cliente = await _clienteClient.ObtenerCliente(id);
-                ViewBag.Action = "Editar Proveedor";
+                ViewBag.Action = "Editar Cliente";
             }
             return View(cliente);
         }
 
-        [HttpPost]
+        [HttpPut]
         [AllowAnonymous]
-        public async Task<IActionResult> guardarCambiosCliente(Cliente cliente)
+        public async Task<IActionResult> guardarCambiosCliente(ClienteViewModel model)
         {
+            if (ModelState.IsValid)
+            {
+                Cliente input = model.Cliente;
 
-            bool respuesta;
-            if (cliente.Id == 0)
-            {
-                respuesta = await _clienteClient.GuardarCliente(cliente);
-            }
-            else
-            {
-                respuesta = await _clienteClient.EditarCliente(cliente);
-            }
+                try
+                {
+                    if (input.Id == 0)
+                    {
+                        await _clienteClient.GuardarCliente(input);
+                    }
+                    else
+                    {
+                        await _clienteClient.EditarCliente(input);
+                    }
+                    _unitOfWork.Save();
 
-            if (respuesta)
-            {
-                return RedirectToAction("Clientes");
+                    return RedirectToAction("Clientes");
+                }
+                catch
+                {
+                    ModelState.AddModelError("", "Internal Server Error.");
+                }
             }
-            else
-            {
-                return NoContent();
-            }
+            return View(model);
+
+            //bool respuesta;
+            //if (cliente.Id == 0)
+            //{
+            //    respuesta = await _clienteClient.GuardarCliente(cliente);
+            //}
+            //else
+            //{
+            //    respuesta = await _clienteClient.EditarCliente(cliente);
+            //}
+
+            //if (respuesta)
+            //{
+            //    return RedirectToAction("Clientes");
+            //}
+            //else
+            //{
+            //    return NoContent();
+            //}
         }
 
         [HttpGet]
@@ -176,23 +201,6 @@ namespace Inventario.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> guardarCambiosProveedor(ProveedorViewModel model)
         {
-            //if (proveedor.Id == 0)
-            //{
-            //    respuesta = await _proveedorClient.GuardarProveedor(proveedor);
-            //}
-            //else
-            //{
-            //    respuesta = await _proveedorClient.EditarProveedor(proveedor);
-            //}
-
-            //if (respuesta)
-            //{
-            //    return RedirectToAction("Proveedor");
-            //}
-            //else
-            //{
-            //    return NoContent();
-            //}
 
             if (ModelState.IsValid)
             {
@@ -219,6 +227,23 @@ namespace Inventario.Controllers
             }
 
             return View(model);
+            //if (proveedor.Id == 0)
+            //{
+            //    respuesta = await _proveedorClient.GuardarProveedor(proveedor);
+            //}
+            //else
+            //{
+            //    respuesta = await _proveedorClient.EditarProveedor(proveedor);
+            //}
+
+            //if (respuesta)
+            //{
+            //    return RedirectToAction("Proveedor");
+            //}
+            //else
+            //{
+            //    return NoContent();
+            //}
 
         }
 

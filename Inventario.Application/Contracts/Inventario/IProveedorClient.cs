@@ -18,9 +18,12 @@ namespace Inventario.Application.Contracts.Inventario
 
         //Post
         Task GuardarProveedor(Proveedor input);
+        //Task<bool> GuardarProveedor(Cliente input);
+
 
         //Put
         Task EditarProveedor(Proveedor input);
+        //Task<bool> EditarProveedor(Cliente input);
 
         //Delete
         Task<bool> EliminarProveedor(int id);

@@ -74,7 +74,7 @@ namespace Inventario.Infraestructure.Implementations
         public async Task GuardarProveedor(Proveedor input)
         {
 
-            //bool guardarProveedor = false;
+            //bool respuesta = false;
 
 
 
@@ -88,16 +88,20 @@ namespace Inventario.Infraestructure.Implementations
                 var response = await client.PostAsync($"Proveedor/Guardar", content);
                 if (response.IsSuccessStatusCode)
                 {
+                    //var json_respuesta = await response.Content.ReadAsStringAsync();
+                    //var resultado = JsonConvert.DeserializeObject<ProveedorViewModel>(json_respuesta);
+                    //input = resultado.input;
                     return;
 
                 }
+                //return input
             }
         }
 
         public async Task EditarProveedor(Proveedor input)
         {
-            //bool editarProveedor = false
-
+            
+            //bool respuesta = false;
 
 
             using (var client = new HttpClient())
