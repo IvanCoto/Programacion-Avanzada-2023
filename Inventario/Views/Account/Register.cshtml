@@ -1,0 +1,83 @@
+﻿@using Inventario.Domain.ConfigurationModels;
+@using Microsoft.Extensions.Options;
+@model RegisterInputModel
+
+@inject IOptions<GoogleRecaptchaSettings> _options
+
+
+<div class="row">
+    <div class="col-6">
+        <form asp-action="Register" method="post">
+            <input type="hidden" id="token" asp-for="Token" />
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Email"></label>
+                <input type="email" id="email" asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div>
+                <label asp-for="Password"></label>
+                <input type="password" id="password" asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div>
+                <label asp-for="ConfirmPassword"></label>
+                <input type="password" id="confirmPassword" asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="col-6">
+        <h1>External Logins</h1>
+        <hr />
+        @if (Model.ExternalLogins.Count == 0)
+        {
+            <div>No external logins configured</div>
+        }
+        else
+        {
+            <form asp-action="ExternalLogin" method="post"
+              asp-route-returnUrl="@Model.ReturnUrl">
+                @foreach (var provider in Model.ExternalLogins)
+                {
+                    <button type="submit" class="btn btn-outline-primary" id="provider" name="provider"
+                            value="@provider.Name">
+                        @provider.DisplayName
+                    </button>
+                }
+            </form>
+        }
+
+    </div>
+</div>
+
+
+<script src="https://www.google.com/recaptcha/api.js?render=@_options.Value.SiteKey"></script>
+
+<script>
+    function GetToken() {
+        grecaptcha.ready(function () {
+            grecaptcha.execute('@_options.Value.SiteKey', { action: 'submit' }).then(function (token) {
+                // Add your logic to submit to your backend server here.
+                console.log(token);
+                $("token").val(token);
+            });
+        });
+    }
+    $(function () {
+        setInterval(GetToken(), 115000);
+        GetToken();
+    });
+
+</script>
+
+
+
+
+
+

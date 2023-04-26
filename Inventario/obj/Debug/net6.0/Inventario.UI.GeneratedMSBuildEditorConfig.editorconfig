@@ -5,65 +5,96 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Inventario.UI
 build_property.RootNamespace = Inventario.UI
-build_property.ProjectDir = C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario\
+build_property.ProjectDir = C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario
+build_property.MSBuildProjectDirectory = C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/Clientes.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/Done.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEb25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/DonePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEb25lUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/PasswordResetSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXNzd29yZFJlc2V0U3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/Clientes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/Index.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/Privacy.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/Productos.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/Proveedores.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/Proveedores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm92ZWVkb3Jlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/upsertCliente.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/upsertCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHNlcnRDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/upsertProducto.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/upsertProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHNlcnRQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Home/upsertProveedor.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Home/upsertProveedor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHNlcnRQcm92ZWVkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Shared/Error.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/_ViewImports.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/_ViewStart.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/Proyectos Programación Avanzada Web/Proyecto/Proyecto Inventario/Programacion-Avanzada-2023/Inventario/Views/Shared/_Layout.cshtml]
+[C:/Users/ivanc/source/Programacion avanzada web/Proyecto/Proyecto - Tienda/Inventario 2.0/Programacion-Avanzada-2023/Inventario/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4sd1w1x5k2

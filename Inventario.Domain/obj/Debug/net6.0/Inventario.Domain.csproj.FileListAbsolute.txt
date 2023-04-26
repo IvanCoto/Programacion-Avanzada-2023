@@ -22,3 +22,15 @@ C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inv
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\refint\Inventario.Domain.dll
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.pdb
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\ref\Inventario.Domain.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\bin\Debug\net6.0\Inventario.Domain.deps.json
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\bin\Debug\net6.0\Inventario.Domain.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\bin\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.csproj.AssemblyReference.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.AssemblyInfoInputs.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.AssemblyInfo.cs
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\refint\Inventario.Domain.dll
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Domain\obj\Debug\net6.0\ref\Inventario.Domain.dll

@@ -39,8 +39,8 @@ namespace Inventario.Identity
                 options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
             }).AddGoogle(options =>
             {
-                options.ClientId = "464790159146-p7i7qof4v2dnv933m6ab82tcmghf7nqe.apps.googleusercontent.com";
-                options.ClientSecret = "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";
+                options.ClientId = "1028536130760-96esa59v8n8gq1j3n7un1htde34n7qck.apps.googleusercontent.com";
+                options.ClientSecret = "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";
 
                 //options.CallbackPath = "/Account/ExternalLoginCallBack";
             });
