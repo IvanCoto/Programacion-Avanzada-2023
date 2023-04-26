@@ -18,10 +18,10 @@ namespace Inventario.Domain.EntityModels
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
 
-        //[Required]
-        //[ForeignKey("Producto")]
-        //public int ProductoId { get; set; }
-        //public Producto Producto { get; set; }
+        [Required]
+        [ForeignKey("Producto")]
+        public int ProductoId { get; set; }
+        public Producto Producto { get; set; }
 
         [Required]
         public int CantidadProducto { get; set; }
