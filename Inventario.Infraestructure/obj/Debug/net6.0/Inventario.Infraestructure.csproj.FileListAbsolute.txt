@@ -34,3 +34,22 @@ C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inv
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\refint\Inventario.Infraestructure.dll
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.pdb
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\ref\Inventario.Infraestructure.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Infraestructure.deps.json
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Infraestructure.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Infraestructure.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Application.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Domain.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Persistence.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Application.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\bin\Debug\net6.0\Inventario.Persistence.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.AssemblyInfo.cs
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.csproj.CopyComplete
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\refint\Inventario.Infraestructure.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\Inventario.Infraestructure.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Infraestructure\obj\Debug\net6.0\ref\Inventario.Infraestructure.dll

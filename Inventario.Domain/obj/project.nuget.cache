@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UpipnEYjKVUQ+Iys9cNXs6VIiGXS47ZCGTGNA7a3Ea2GxE2zgMNE5OyWx4aBwShnFksmJHwfsZuy314XAy/9tA==",
+  "dgSpecHash": "AlorA0BD+EnReTUa9g0oCvyA5hecgHYFeVswcYZU6yIq3UfUY+vtjVqIfJTkUL7x2/CHnC5XrrjM9LD5wHq6pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.15\\microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",

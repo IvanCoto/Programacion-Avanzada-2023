@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj": {}
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj": {
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
         "projectName": "Inventario.Api",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
+        "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,17 +28,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
         "projectName": "Inventario.Application",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
+        "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,8 +111,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
         "projectName": "Inventario.Domain",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
+        "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj",
         "projectName": "Inventario.Infraestructure",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\Inventario.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,14 +253,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj"
               }
             }
           }
@@ -312,14 +312,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
+    "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj",
         "projectName": "Inventario.Persistence",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj",
+        "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\Inventario.Persistence.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -336,11 +336,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Application\\Inventario.Application.csproj"
               },
-              "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
+              "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Domain\\Inventario.Domain.csproj"
               }
             }
           }

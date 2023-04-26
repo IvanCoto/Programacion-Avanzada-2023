@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kVT1G88QANqqndwmMPD/fnmI7/RHoe3SpQYeAzXHjjxgSYxUWUGG3we97+VetAyAJavILZcNjBf78sVgJSWrfA==",
+  "dgSpecHash": "w18fGkzM/KFAoyHqeApQDvDz/9Hs5SnAgGZS3TbOSzTUWZRAY4oxqmjHAhk6UpfilTfGjnD3Xk1KU+IVpYJ7ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Proyectos Programación Avanzada Web\\Proyecto\\Proyecto Inventario\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\source\\Programacion-Avanzada-2023\\Inventario.Api.v2\\Inventario.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

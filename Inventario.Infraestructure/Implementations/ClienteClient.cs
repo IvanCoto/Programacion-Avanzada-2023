@@ -55,7 +55,7 @@ namespace Inventario.Infraestructure.Implementations
         public async Task<ClienteViewModel> ObtenerCliente(int id)
         {
 
-            var obtenerCliente = new ClienteViewModel
+            var model = new ClienteViewModel
             {
                 Cliente =
                 id == 0
@@ -74,9 +74,9 @@ namespace Inventario.Infraestructure.Implementations
                 {
                     var json_respuesta = await response.Content.ReadAsStringAsync();
                     var clientes = JsonConvert.DeserializeObject<ClienteViewModel>(json_respuesta);
-                    obtenerCliente = clientes;
+                    model = clientes;
                 }
-                return obtenerCliente;
+                return model;
             }
         }
 

@@ -11,6 +11,5 @@ namespace Inventario.Domain.ViewModels
     {
         public Cliente Cliente{ get; set; }
 
-        public List<Cliente> GetClientes { get; set; }
     }
 }

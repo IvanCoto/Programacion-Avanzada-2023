@@ -16,6 +16,7 @@ namespace Inventario.Infraestructure.Implementations
 {
     public class ProveedorClient : IProveedorClient
     {
+        const string PROVEEDOR_BASE_ADDRESS = "https://localhost:7203/api/Proveedor";
 
         public ProveedorClient(IUnitOfWork<ApplicationDbContext> unitOfWork)
         {
@@ -29,7 +30,6 @@ namespace Inventario.Infraestructure.Implementations
 
         JsonSerializerOptions options = new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
 
-        const string PROVEEDOR_BASE_ADDRESS = "https://localhost:7203/api/Proveedor";
         public async Task<List<Proveedor>> GetListaProveedor()
         {
             List<Proveedor> ListaProveedor = new List<Proveedor>();

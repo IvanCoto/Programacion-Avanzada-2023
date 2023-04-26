@@ -78,13 +78,12 @@ namespace Inventario.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> upsertCliente(int id)
         {
-            var cliente = new ClienteViewModel
+            var model = new ClienteViewModel
             {
                 Cliente =
                 id == 0
                     ? new Cliente()
-                    : _repositoryCliente.Get(s => s.Id == id),
-                GetClientes = _repositoryCliente.GetAll().ToList()
+                    : _repositoryCliente.Get(s => s.Id == id)
             };
 
             ViewBag.Action = "Nuevo Cliente";
@@ -93,13 +92,13 @@ namespace Inventario.Controllers
 
             if (id != 0)
             {
-                cliente = await _clienteClient.ObtenerCliente(id);
+                model = await _clienteClient.ObtenerCliente(id);
                 ViewBag.Action = "Editar Cliente";
             }
-            return View(cliente);
+            return View(model);
         }
 
-        [HttpPut]
+        [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> guardarCambiosCliente(ClienteViewModel model)
         {

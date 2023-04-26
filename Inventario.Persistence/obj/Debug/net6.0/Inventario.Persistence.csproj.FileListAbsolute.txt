@@ -32,3 +32,20 @@ C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inv
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\refint\Inventario.Persistence.dll
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.pdb
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\ref\Inventario.Persistence.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.deps.json
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Application.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Domain.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Application.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.AssemblyReference.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.AssemblyInfoInputs.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.AssemblyInfo.cs
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.CopyComplete
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\refint\Inventario.Persistence.dll
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.pdb
+C:\Users\Dell\source\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\ref\Inventario.Persistence.dll
