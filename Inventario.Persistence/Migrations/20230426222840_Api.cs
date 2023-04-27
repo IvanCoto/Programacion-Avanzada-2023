@@ -5,7 +5,7 @@
 namespace Inventario.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class UpdatebranchProducto : Migration
+    public partial class Api : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -98,6 +98,33 @@ namespace Inventario.Persistence.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Venta",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FacturaId = table.Column<int>(type: "int", nullable: false),
+                    ClienteId = table.Column<int>(type: "int", nullable: false),
+                    MontoTotal = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Venta", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Venta_Clientes_ClienteId",
+                        column: x => x.ClienteId,
+                        principalTable: "Clientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Venta_Factura_FacturaId",
+                        column: x => x.FacturaId,
+                        principalTable: "Factura",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Factura_ClienteId",
                 table: "Factura",
@@ -112,11 +139,24 @@ namespace Inventario.Persistence.Migrations
                 name: "IX_Productos_ProveedorId",
                 table: "Productos",
                 column: "ProveedorId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Venta_ClienteId",
+                table: "Venta",
+                column: "ClienteId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Venta_FacturaId",
+                table: "Venta",
+                column: "FacturaId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Venta");
+
             migrationBuilder.DropTable(
                 name: "Factura");
 

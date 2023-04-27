@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Inventario.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230424220034_UpdatebranchProducto")]
-    partial class UpdatebranchProducto
+    [Migration("20230426222840_Api")]
+    partial class Api
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -136,6 +136,7 @@ namespace Inventario.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("ProveedorId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -172,6 +173,32 @@ namespace Inventario.Persistence.Migrations
                     b.ToTable("Proveedor");
                 });
 
+            modelBuilder.Entity("Inventario.Domain.EntityModels.Venta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FacturaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MontoTotal")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.HasIndex("FacturaId");
+
+                    b.ToTable("Venta");
+                });
+
             modelBuilder.Entity("Inventario.Domain.EntityModels.Factura", b =>
                 {
                     b.HasOne("Inventario.Domain.EntityModels.Cliente", "Cliente")
@@ -200,6 +227,25 @@ namespace Inventario.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Proveedor");
+                });
+
+            modelBuilder.Entity("Inventario.Domain.EntityModels.Venta", b =>
+                {
+                    b.HasOne("Inventario.Domain.EntityModels.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Inventario.Domain.EntityModels.Factura", "Factura")
+                        .WithMany()
+                        .HasForeignKey("FacturaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+
+                    b.Navigation("Factura");
                 });
 #pragma warning restore 612, 618
         }

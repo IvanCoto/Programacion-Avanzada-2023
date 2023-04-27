@@ -52,7 +52,8 @@ namespace Inventario.Infrastructure
             services.AddUnitOfWork<ApplicationDbContext>()
                 .AddRepository<Cliente, ClienteRepository>()
                 .AddRepository<Proveedor,ProveedorRepository>()
-                .AddRepository<Producto, ProductoRepository>();
+                .AddRepository<Producto, ProductoRepository>()
+                .AddRepository<Venta, VentaRepository>();
 
 
             return services;

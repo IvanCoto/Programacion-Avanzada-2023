@@ -32,6 +32,25 @@ C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inv
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\refint\Inventario.Persistence.dll
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.pdb
 C:\Users\Dell\Desktop\Proyectos Programación Avanzada Web\Proyecto\Proyecto Inventario\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\ref\Inventario.Persistence.dll
+<<<<<<< HEAD
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.deps.json
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.dll
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.pdb
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Application.dll
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Domain.dll
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Application.pdb
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Domain.pdb
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.AssemblyReference.cache
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.AssemblyInfoInputs.cache
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.AssemblyInfo.cs
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.csproj.CopyComplete
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.dll
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\refint\Inventario.Persistence.dll
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.pdb
+C:\Users\geral\OneDrive\Documentos\GitHub\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\ref\Inventario.Persistence.dll
+=======
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.deps.json
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.dll
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\bin\Debug\net6.0\Inventario.Persistence.pdb
@@ -49,3 +68,4 @@ C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inven
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\refint\Inventario.Persistence.dll
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\Inventario.Persistence.pdb
 C:\Users\ivanc\source\Programacion avanzada web\Proyecto\Proyecto - Tienda\Inventario 2.0\Programacion-Avanzada-2023\Inventario.Persistence\obj\Debug\net6.0\ref\Inventario.Persistence.dll
+>>>>>>> 3d53ddc66922ca5fa6052b70b40cc5eacc26aedf

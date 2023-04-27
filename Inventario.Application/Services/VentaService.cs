@@ -35,16 +35,7 @@ namespace Inventario.Application.Services
             _repository.Save();
         }
 
-        public void Update(Venta Venta)
-        {
-            if (Venta == null)
-            {
-                throw new ArgumentNullException((nameof(Venta)));
-            }
-            _repository.Update(Venta);
-            _repository.Save();
-        }
-
+        
         
 
     }

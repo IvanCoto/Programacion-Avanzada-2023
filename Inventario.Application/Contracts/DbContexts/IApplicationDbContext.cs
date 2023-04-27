@@ -12,5 +12,6 @@ namespace Inventario.Application.Contracts.DbContexts
     {
         DbSet<Cliente> Clientes { get; set; }
         DbSet<Factura> Factura { get; set; }
+        DbSet<Venta> Venta { get; set; }
     }
 }
